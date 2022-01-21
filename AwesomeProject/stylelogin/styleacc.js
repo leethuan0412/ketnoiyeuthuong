@@ -1,0 +1,173 @@
+import { StyleSheet } from "react-native";
+const styles = StyleSheet.create({
+    bigText: { color: 'black', fontSize: 18, marginTop: 24, marginLeft: 13 },
+    textone: { color: '#666666', fontSize: 14, marginTop: 8, marginLeft: 17 },
+    texttwo: { color: '#60B939', fontSize: 14, marginTop: 8, marginLeft: 17 },
+    setting: { width: 360, height: 56, borderBottomWidth: 1, alignSelf: 'center', borderBottomColor: "#C4C4C4", },
+    iconn: { height: 30, width: 30, alignSelf: "center", },
+    square: {
+        marginTop: 20,
+        height: 107,
+        width: 328,
+        backgroundColor: '#FFFFFF',
+        borderRadius: 16,
+        alignSelf: "center",
+        marginLeft: 16,
+        marginRight: 16,
+    },
+    ridesFriends: {
+        //paddingTop: 70,
+        marginTop: 26,
+        flexDirection: 'row',
+        justifyContent: 'space-evenly',
+        width: '100%',
+        //marginBottom: 20,
+    },
+    Text: {
+        fontSize: 14,
+        alignSelf: 'center',
+        color: '#666666',
+    },
+    baseText: {
+        fontSize: 14,
+        //alignSelf: 'center',
+        marginLeft: 12.5,
+        //marginTop:21,
+    },
+    numbers: {
+        fontSize: 30,
+        color: 'black',
+        //fontWeight: 'bold',
+        alignSelf: 'center',
+    },
+    verticleLine: {
+        height: 30,
+        width: 1,
+        backgroundColor: '#C4C4C4',
+        alignSelf: "center",
+    },
+    image: {
+        height: 80,
+        width: 80,
+        //alignSelf: 'center',
+        marginTop: 20,
+        borderRadius: 40,
+        marginLeft: 16,
+    },
+    baseimage: {
+        height: 30,
+        width: 30,
+        alignSelf: 'center',
+        marginTop: 20,
+        borderRadius: 20,
+        marginVertical: 10,
+        marginLeft: 30,
+        marginRight: 30,
+
+    },
+    image1: {
+        height: 21,
+        width: 21,
+        // alignSelf: 'center',
+        // marginTop: 20,
+        // borderRadius: 20,
+
+    },
+    image2: {
+        height: 24,
+        width: 24,
+        // alignSelf: 'center',
+        // justifyContent:'center',
+
+    },
+    arrow: { height: 24, width: 24, alignSelf: 'center' },
+    input: {
+        // padding: 30,
+        height: 50,
+        marginTop: 10,
+        borderWidth: 1,
+        borderRadius: 10,
+        paddingHorizontal: 20,
+        borderColor: "#C4C4C4",
+        backgroundColor: "#DDDDDD",
+        marginLeft: 16,
+        marginRight: 16,
+        //width:328
+    },
+    input2: {
+        marginTop: 10,
+        height: 60,
+        borderWidth: 1,
+        paddingHorizontal: 30,
+        borderColor: "#C4C4C4",
+        backgroundColor: "#DDDDDD",
+        marginRight: 10,
+        borderTopLeftRadius: 8,
+        borderBottomLeftRadius: 8,
+        marginLeft: 15,
+    },
+    input3: {
+        height: 60,
+        marginTop: 10,
+        borderWidth: 1,
+        paddingHorizontal: 70,
+        borderColor: "#C4C4C4",
+        backgroundColor: "#DDDDDD",
+        borderTopRightRadius: 8,
+        borderBottomRightRadius: 8,
+    },
+
+    login: {
+        backgroundColor: '#60B939',
+        //color: 'white',
+        height: 50,
+        borderRadius: 10,
+        marginTop: 30,
+        marginLeft: 16,
+        marginRight: 16,
+        fontSize: 14,
+        width: 328,
+        alignItems: 'center',
+        justifyContent: 'center',
+        alignSelf: 'center',
+    },
+    textfirst: {
+        color: "#60B939",
+        fontSize: 14,
+        marginTop: 20,
+    },
+    basetext1: {
+        fontSize: 14,
+        color: "black",
+        marginTop: 20,
+    },
+    otp: { width: 328, height: 40, alignSelf: 'center', marginTop: 30 },
+    under: {
+        width: 40,
+        height: 45,
+        borderWidth: 1,
+        color: 'black',
+        borderColor: '#DDDDDD',
+        backgroundColor: "#DDDDDD",
+
+    },
+
+    underonclick: {
+        borderColor: "red",
+    },
+    baseText2: {
+        fontSize: 14,
+        marginLeft: 16,
+        marginTop: 20,
+    },
+    accept: {
+        fontSize: 30,
+        marginTop: 20,
+        //alignSelf:'center',
+        //  fontWeight:'bold',
+        marginLeft: 16,
+
+    },
+
+});
+export default styles;
